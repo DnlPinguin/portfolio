@@ -1,4 +1,78 @@
+body {
+  margin-top: 10vh;
+}
+
 section {
   height: 500px;
-  background-color: yellow;
+  background-color: lightgreen;
+  border-bottom: solid 1px black;
+}
+
+button {
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+button:hover {
+  color: green;
+}
+
+header {
+  height: 10vh;
+  font-size: 30px;
+  position: fixed;
+  background: white;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+h1 {
+  font-size: 45px;
+  font-family: "Consolas";
+}
+p {
+  font-size: 20px;
+  font-family: "Consolas";
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+li {
+  width: 130px;
+  text-align: center;
+  font-family: "Consolas";
+  font-size: 25px;
+}
+
+footer {
+  height: 500px;
+  background-color: black;
+}
+
+.hero {
+  background-color: black;
+  height: 90vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-title {
+  margin-left: 3%;
+}
+.bio {
+  margin-left: 5%;
+  width: 20%;
+  position: relative;
 }
