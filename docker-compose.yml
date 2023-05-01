@@ -1,0 +1,26 @@
+version: '3.7'
+services:
+  schokoradeln:
+    hostname: schokoradeln
+    build: ./
+    image: schoko-radeln:latest
+    container_name: schoko-radeln
+    restart: always
+    command: 'npm run serve'
+    expose:
+      - '8080'
+    networks:
+      - frontproxy_default
+      - default
+    volumes:
+      - "./src/:/app/src"
+    environment:
+      - VIRTUAL_HOST=schokoradeln.de
+      - VIRTUAL_PORT=8080
+      - LETSENCRYPT_HOST=schokoradeln.de
+      - LETSENCRYPT_EMAIL=support@ciab.io
+networks:
+  frontproxy_default:
+   external: true
+
+  
