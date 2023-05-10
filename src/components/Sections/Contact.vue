@@ -6,7 +6,7 @@
 
     <div class="baseline">
         <p>Realized By
-            <b>Daniel Valentin Kowalski</b>
+            <b>Daniel Valentin Kowalski ©2023</b>
         </p>
         <div class="legal-links">
             <a>Imprint</a>
@@ -34,8 +34,8 @@ export default {
 </script>
 <style scoped>
 .contact-container {
-    text-align: center;
-    width: 50%;
+    text-align: left;
+    width: 60%;
     margin: auto;
 }
 
@@ -49,7 +49,6 @@ h4 {
     font-size: 20px;
     font-weight: 100;
     margin-top: 1rem;
-    text-align: left;
 }
 
 .baseline {

@@ -1,8 +1,5 @@
 <template>
     <header>
-
-
-
         <Burger @toggled="toggle" :open="menuOpen" class="burger-button" />
 
         <img class="desktop logo" src="@/assets/svg/logo.svg" alt="Your SVG image">

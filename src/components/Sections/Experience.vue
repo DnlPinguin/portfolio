@@ -59,6 +59,7 @@ export default {
     flex-wrap: wrap;
     justify-content: center;
     flex-direction: column;
+    align-content: center;
 }
 
 .middle {

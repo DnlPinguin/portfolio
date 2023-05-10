@@ -8,7 +8,6 @@
         <div class="description slide-in-right">
             <h4>{{ project.techStack }}</h4>
             <h3>{{ project.title }}</h3>
-
         </div>
     </a>
 

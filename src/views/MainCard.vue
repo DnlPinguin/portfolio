@@ -19,17 +19,17 @@
           <About :language="language" />
         </section>
 
-        <Seperator :number="'01'" :title="'Check out my Work'" id="work" />
+        <Seperator :number="'01'" :title="'Career'" id="work" />
         <section>
           <Work :language="language" />
         </section>
 
-        <Seperator :number="'02'" :title="'My Experience'" id="experience" />
+        <Seperator :number="'02'" :title="'Projects'" id="experience" />
         <section>
           <Experience ref="watchedDiv" :language="language" />
         </section>
 
-        <Seperator :number="'03'" :title="'Get In Contact'" id="contact" />
+        <Seperator :number="'03'" :title="'Contact'" id="contact" />
         <section>
           <Contact :language="language" />
         </section>
